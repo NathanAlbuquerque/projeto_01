@@ -8,6 +8,6 @@ class CarrosselController extends Controller
 {
     public function principal()
     {
-        return ('oi');
+        return view('carrossel');
     }
 }
