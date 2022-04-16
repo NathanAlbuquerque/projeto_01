@@ -16,3 +16,5 @@
   <script type="text/javascript" src="{{url('/')}}/assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
   <script type="text/javascript" src="{{url('/')}}/assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
   <script type="text/javascript" src="{{url('/')}}/assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+
+  <script type="text/javascript" src="{{url('/')}}/assets/js/app.js"></script>

@@ -18,3 +18,5 @@
 <link rel="apple-touch-icon" href="{{url('/')}}/assets/img/apple-touch-icon.png">
 <link rel="apple-touch-icon" sizes="72x72" href="{{url('/')}}/assets/img/apple-touch-icon-72x72.png">
 <link rel="apple-touch-icon" sizes="114x114" href="{{url('/')}}/assets/img/apple-touch-icon-114x114.png">
+
+<link rel="stylesheet" href="{{url('/')}}/assets/css/style2.css" />
