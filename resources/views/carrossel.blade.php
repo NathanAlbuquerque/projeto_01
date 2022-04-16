@@ -3,7 +3,7 @@
   <head>
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=500px, initial-scale=1.0">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
       <title>Carrossel_Agrupado</title>
       @include('_style')
       <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet" />
@@ -35,8 +35,8 @@
             <!-- Item img -->
             <div class="item-img">
 
-              <img class="img-sla" src="uploads/produtos/IMG_6648_jpg.jpg" alt="" >
-              <img class="img-sla" src="uploads/produtos/IMG_6652_jpg.jpg" alt="" >
+              <img class="img-1" src="uploads/produtos/IMG_6648_jpg.jpg" alt="" >
+              <img class="img-2" src="uploads/produtos/IMG_6652_jpg.jpg" alt="" >
 
               <div class="overlay">
                 <div class="position-center-center">
@@ -57,8 +57,8 @@
             <!-- Item img -->
             <div class="item-img">
 
-              <img class="img-sla" src="uploads/produtos/IMG_6648_jpg.jpg" alt="" >
-              <img class="img-sla" src="uploads/produtos/IMG_6652_jpg.jpg" alt="" >
+              <img class="img-1" src="uploads/produtos/IMG_6661_jpg.jpg" alt="" >
+              <img class="img-2" src="uploads/produtos/IMG_6663_jpg.jpg" alt="" >
 
               <div class="overlay">
                 <div class="position-center-center">
@@ -79,8 +79,7 @@
             <!-- Item img -->
             <div class="item-img">
 
-              <img class="img-sla" src="uploads/produtos/IMG_6648_jpg.jpg" alt="" >
-              <img class="img-sla" src="uploads/produtos/IMG_6652_jpg.jpg" alt="" >
+              <img class="img-1" src="uploads/produtos/IMG_7243_jpg.jpg" alt="" >
 
               <div class="overlay">
                 <div class="position-center-center">
@@ -118,7 +117,7 @@
             },
             600:{
                 items:3,
-                nav:false
+                nav:true
             },
             1000:{
                 items:5,
