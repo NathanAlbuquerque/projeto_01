@@ -18,7 +18,7 @@
         <!-- Portfolio Slider -->
         <!-- Popular Products -->
 
-        <section class="section-wrap intro style-2" style="background-color:#c4c4c4">
+        <section class="section-wrap intro style-2" style="background-image: url(assets/img/bg/bg-produtos-min.png);">
           
           <div class="container">
 
