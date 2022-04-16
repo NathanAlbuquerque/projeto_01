@@ -95,6 +95,72 @@
 
           <!-- -->
 
+          <div class="item" style="padding-right:20px">
+
+            <!-- Item img -->
+            <div class="item-img">
+
+              <img class="img-1" src="uploads/produtos/IMG_1234_jpg.png" alt="" >
+              <img class="img-2" src="uploads/produtos/IMG_1235_jpg.png" alt="" >
+
+              <div class="overlay">
+                <div class="position-center-center">
+                  <div class="inn"><a href="uploads/produtos/" data-lighter=""><i class="fa fa-search"></i></a> <a href="https://api.whatsapp.com/send?phone=5599981600047&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Fui%20redirecionado%20(a)%20atrav%C3%A9s%20do%20link%20do%20site%20%F0%9F%98%8E.%20Gostaria%20de%20saber%20mais%20sobre%20esse%20produto%3A"><i class="fa fa-shopping-cart"></i></a></div>
+                </div>
+              </div>
+            </div>
+            <!-- Item Name -->
+            <div class="item-name"> <a href=""></a>
+            <p>Para charme</p>
+            </div>
+          </div>
+
+          <!-- -->
+
+          <div class="item" style="padding-right:20px">
+
+            <!-- Item img -->
+            <div class="item-img">
+
+              <img class="img-1" src="uploads/produtos/IMG_1657_jpg.jpg" alt="" >
+              <img class="img-2" src="uploads/produtos/IMG_1658_jpg.jpg" alt="" >
+
+              <div class="overlay">
+                <div class="position-center-center">
+                  <div class="inn"><a href="uploads/produtos/" data-lighter=""><i class="fa fa-search"></i></a> <a href="https://api.whatsapp.com/send?phone=5599981600047&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Fui%20redirecionado%20(a)%20atrav%C3%A9s%20do%20link%20do%20site%20%F0%9F%98%8E.%20Gostaria%20de%20saber%20mais%20sobre%20esse%20produto%3A"><i class="fa fa-shopping-cart"></i></a></div>
+                </div>
+              </div>
+            </div>
+            <!-- Item Name -->
+            <div class="item-name"> <a href=""></a>
+            <p>Para festas</p>
+            </div>
+          </div>
+
+          <!-- -->
+
+          <div class="item" style="padding-right:20px">
+
+            <!-- Item img -->
+            <div class="item-img">
+
+              <img class="img-1" src="uploads/produtos/IMG_9125_jpg.jpg" alt="" >
+              <img class="img-2" src="uploads/produtos/IMG_9126_jpg.jpg" alt="" >
+
+              <div class="overlay">
+                <div class="position-center-center">
+                  <div class="inn"><a href="uploads/produtos/" data-lighter=""><i class="fa fa-search"></i></a> <a href="https://api.whatsapp.com/send?phone=5599981600047&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Fui%20redirecionado%20(a)%20atrav%C3%A9s%20do%20link%20do%20site%20%F0%9F%98%8E.%20Gostaria%20de%20saber%20mais%20sobre%20esse%20produto%3A"><i class="fa fa-shopping-cart"></i></a></div>
+                </div>
+              </div>
+            </div>
+            <!-- Item Name -->
+            <div class="item-name"> <a href=""></a>
+            <p>Para sol</p>
+            </div>
+          </div>
+
+          <!-- -->
+
           </div>
         </section> <!-- end portfolio slider -->
 
