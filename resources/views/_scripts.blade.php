@@ -23,4 +23,4 @@
   <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.3.15/slick.min.js'></script><script  src="./script.js"></script>
-  <script src="./assets/js/script.js"></script>
+  <script src="{{url('/')}}/assets/js/script.js"></script>
