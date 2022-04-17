@@ -441,12 +441,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
  	text-align: center;
  	line-height: 21px;
  }
- .papular-block .overlay {
+  .vaso .overlay {
  	/* background: rgba(255,255,21,0.75); */
  	position: absolute;
  	height: 100%;
- 	width: 100%;
- 	left: 0px;
+ 	width: 80%;
+ 	left: 10%;
  	top: 0px;
  	opacity: 0;
  	-webkit-transition: 0.4s ease-in-out;
@@ -455,13 +455,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
  	-o-transition: 0.4s ease-in-out;
  	transition: 0.4s ease-in-out;
  }
- .papular-block .item:hover .overlay {
+ .vaso .item:hover .overlay {
  	opacity: 1;
  }
  .papular-block .item-img {
  	margin-bottom: 30px;
  }
- .papular-block .overlay .inn {
+ .vaso .overlay .inn {
  	display: inline-block;
  	border-radius: 30px;
  	background: #52594a;
@@ -471,7 +471,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
  	margin: 10px 0;
  	padding: 0 20px;
  }
- .papular-block .tooltip .tooltip-inner {
+ .vaso .tooltip .tooltip-inner {
  	font-style: italic;
  	font-size: 12px;
  }
@@ -482,13 +482,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
  .tooltip.top .tooltip-arrow {
  	bottom: 1px;
  }
- .papular-block .position-center-center {
+ .vaso .position-center-center {
  	width: 100%;
  	text-align: center;
   padding-top: 66%;
     opacity: 35%;
  }
- .papular-block .overlay .inn a {
+ .vaso .overlay .inn a {
  	display: inline-block;
  	font-size: 16px;
  	color: #fff;
@@ -515,7 +515,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
  	display: inline-block;
  	vertical-align: top;
  }
- .papular-block .overlay a:hover {
+ .vaso .overlay a:hover {
  }
  .papular-block .item img {
  	width: 100%;
