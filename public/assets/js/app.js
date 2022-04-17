@@ -25,11 +25,33 @@
       1º slide, o slide anterior deve ser exibido.
 */
 
-const slides = document.querySelectorAll('[data-js="vaso__item"]')
-const nextButton = document.querySelector('[data-js="vaso__button--next"]')
-const prevButton = document.querySelector('[data-js="vaso__button--prev"]')
+var slides = []
+var nextButton = []
+var prevButton = []
+var currentSlideIndex = []
 
-let currentSlideIndex = 0
+const products = document.querySelectorAll('[data-js="vaso"]')
+for (let index = 1; index <= products.length; index++) {
+  slides[index] = document.querySelectorAll('[data-js="vaso__item'+index+'"]')
+  nextButton[index] = document.querySelector('[data-js="vaso__button--next'+index+'"]')
+  prevButton[index] = document.querySelector('[data-js="vaso__button--prev'+index+'"]')
+  currentSlideIndex[index] = 0
+}
+
+for (let index = 1; index <= products.length; index++) {
+  console.log(slides[index])
+  console.log(nextButton[index])
+  console.log(prevButton[index])
+  console.log(currentSlideIndex[index])
+}
+
+//const slides = document.querySelectorAll('[data-js="vaso__item"]')
+//const nextButton = document.querySelector('[data-js="vaso__button--next"]')
+//const prevButton = document.querySelector('[data-js="vaso__button--prev"]')
+
+//let currentSlideIndex = 0
+
+//console.log(products.length)
 
 nextButton.addEventListener('click', () => {
   if (currentSlideIndex === slides.length -1) {
