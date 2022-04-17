@@ -1,3 +1,10 @@
+<!-- Carrossel -->
+<link rel="stylesheet" href="{{url('/')}}/assets/css/style2.css" />
+
+<!-- Slider -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/jquery.slick/1.3.8/slick.css'>
 
 <!-- Google Fonts -->
 <link href='https://fonts.googleapis.com/css?family=Barlow:400,600,700%7CRoboto:400,400i,700%7CNoto+Serif:400i' rel='stylesheet'>
@@ -18,5 +25,3 @@
 <link rel="apple-touch-icon" href="{{url('/')}}/assets/img/apple-touch-icon.png">
 <link rel="apple-touch-icon" sizes="72x72" href="{{url('/')}}/assets/img/apple-touch-icon-72x72.png">
 <link rel="apple-touch-icon" sizes="114x114" href="{{url('/')}}/assets/img/apple-touch-icon-114x114.png">
-
-<link rel="stylesheet" href="{{url('/')}}/assets/css/style2.css" />
