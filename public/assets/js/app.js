@@ -53,19 +53,23 @@ for (let index = 1; index <= products.length; index++) {
 
 //console.log(products.length)
 
-nextButton.addEventListener('click', () => {
-  if (currentSlideIndex === slides.length -1) {
-    currentSlideIndex = 0
-  } else {
-    currentSlideIndex++
-  }
+for (let index = 1; index <= products.length; index++) {
 
-  slides.forEach( slide => {
-    slide.classList.remove('vaso__item--visible')
+  nextButton+index.addEventListener('click', () => {
+    if (currentSlideIndex[index] === slides[index].length -1) {
+      currentSlideInde[index] = 0
+    } else {
+      currentSlideIndex[index]++
+    }
+
+    slides[index].forEach( slide => {
+      slide.classList.remove('vaso__item--visible')
+    })
+
+    slides[index][currentSlideIndex[index]].classList.add('vaso__item--visible')
   })
 
-  slides[currentSlideIndex].classList.add('vaso__item--visible')
-})
+}
 
 prevButton.addEventListener('click', () => {
   if (currentSlideIndex === 0) {
