@@ -55,7 +55,7 @@ for (let index = 1; index <= products.length; index++) {
 
 for (let index = 1; index <= products.length; index++) {
 
-  nextButton+index.addEventListener('click', () => {
+  nextButton[index].addEventListener('click', () => {
     if (currentSlideIndex[index] === slides[index].length -1) {
       currentSlideInde[index] = 0
     } else {
@@ -68,7 +68,7 @@ for (let index = 1; index <= products.length; index++) {
 
     slides[index][currentSlideIndex[index]].classList.add('vaso__item--visible')
   })
-
+  
 }
 
 prevButton.addEventListener('click', () => {
